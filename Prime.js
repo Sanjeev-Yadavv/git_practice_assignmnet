@@ -13,4 +13,4 @@ let num = 5
         return "No"
     }
 }
-console.log(CheckPrime(4))
+console.log(CheckPrime())
