@@ -1,6 +1,7 @@
 let num = 5
-CheckPrime(num){
-    let count = 0
+let count = 0
+ function CheckPrime(num){
+    
     for(i=1; i<num; i++){
         if(num%i){
             count++
@@ -13,4 +14,4 @@ CheckPrime(num){
         return "No"
     }
 }
-console.log(CheckPrime(4))
+console.log(CheckPrime())
