@@ -1,7 +1,7 @@
 let num = 5
-CheckPrime(num){
+ function CheckPrime(num){
     let count = 0
-    for(i=1; i<num; i++){
+    for(i=1; i<=num; i++){
         if(num%i){
             count++
         }
